@@ -1,15 +1,8 @@
 DIAL_RANGE = range(100)
 dial_start = 50
 
-def sub(x,y):
-    z = x + y
-    return(z)
+test_input = "R11"
 
-def add(x,y):
-    z = x + y
-    return(z)
+rotation = test_input[0]
+rotation_ammount = int(test_input[1:])
 
-
-def check_rotation(code):
-    if code[0] == "L":
-        
